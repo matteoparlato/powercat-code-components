@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="PowerCAT" constructor="Persona" version="0.0.1" display-name-key="Persona" description-key="Persona description" control-type="virtual">
+  <control namespace="EOS" constructor="Persona" version="0.0.1" display-name-key="Persona" description-key="Persona description" control-type="virtual">
     <property name="ImageUrl" display-name-key="ImageUrl" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="ImageInitials" display-name-key="ImageInitials" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="Text" display-name-key="Text" of-type="SingleLine.Text" usage="input" required="false" />

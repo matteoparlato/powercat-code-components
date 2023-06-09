@@ -6,7 +6,7 @@
     Model-driven Apps: ✔
     Portals: -
   -->
-  <control namespace="PowerCAT" constructor="ResizableTextarea" version="0.0.1" display-name-key="ResizableTextarea" description-key="ResizableTextarea_Desc" control-type="standard">
+  <control namespace="EOS" constructor="ResizableTextarea" version="0.0.1" display-name-key="ResizableTextarea" description-key="ResizableTextarea_Desc" control-type="standard">
 
     <!-- Text Properties -->
     <property name="Text" display-name-key="Text" description-key="Text_Desc" of-type-group="strings" usage="bound" required="true" />

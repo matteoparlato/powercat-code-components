@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="PowerCAT" constructor="TagList" version="0.0.1" display-name-key="TagList" description-key="TagList_Desc" control-type="virtual">
+  <control namespace="EOS" constructor="TagList" version="0.0.1" display-name-key="TagList" description-key="TagList_Desc" control-type="virtual">
      
     <!-- OnChange Event Properties -->
     <property name="SelectedKey" display-name-key="SelectedKey" usage="bound" of-type="SingleLine.Text" />

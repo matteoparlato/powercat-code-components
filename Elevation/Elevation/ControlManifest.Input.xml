@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PowerCAT" constructor="Elevation" version="0.0.1" display-name-key="Elevation" description-key="Elevation_Desc" control-type="standard" >
+  <control namespace="EOS" constructor="Elevation" version="0.0.1" display-name-key="Elevation" description-key="Elevation_Desc" control-type="standard" >
     <property name="IsHovered" display-name-key="IsHovered" of-type="TwoOptions" usage="output" required="true" />
     <property name="FillColor" default-value="#ffffff" display-name-key="FillColor" of-type="SingleLine.Text" usage="bound" />
     <property name="HoverFillColor" display-name-key="HoverFillColor" of-type="SingleLine.Text" usage="bound"  />

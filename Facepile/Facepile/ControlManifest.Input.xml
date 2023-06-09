@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="PowerCAT" constructor="Facepile" version="0.0.1" display-name-key="Facepile" description-key="Facepile_Desc" control-type="virtual">
+  <control namespace="EOS" constructor="Facepile" version="0.0.1" display-name-key="Facepile" description-key="Facepile_Desc" control-type="virtual">
     <property name="AccessibilityLabel" display-name-key="AccessibilityLabel" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="Theme" display-name-key="Theme" of-type="Multiple" usage="input" required="false" />
     <!-- Input Property -->

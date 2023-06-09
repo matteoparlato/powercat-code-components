@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="PowerCAT" constructor="SpinButton" version="0.0.1" display-name-key="SpinButton" description-key="SearchBox_desc" control-type="virtual">
+  <control namespace="EOS" constructor="SpinButton" version="0.0.1" display-name-key="SpinButton" description-key="SearchBox_desc" control-type="virtual">
     <property name="Label" display-name-key="SpinButton_Label" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="Suffix" display-name-key="SpinButton_Suffix" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="IconName" display-name-key="SpinButton_IconName" of-type="SingleLine.Text" usage="input" required="false" />
