@@ -61,8 +61,8 @@ const getLinkStyles = (
         !isLinkInOverflowMenu && [
             {
                 display: 'inline-block',
-                lineHeight: 44,
-                height: 44,
+                lineHeight: 50,
+                height: 50,
                 marginRight: 8,
                 textAlign: 'center',
                 selectors: {
@@ -89,13 +89,13 @@ const getLinkStyles = (
                 },
             },
             rootIsLarge && {
-                fontSize: fonts.large.fontSize,
+                fontSize: fonts.xLarge.fontSize,
             },
             rootIsTabs && [
                 {
                     marginRight: 0,
-                    height: 44,
-                    lineHeight: 44,
+                    height: 50,
+                    lineHeight: 50,
                     backgroundColor: semanticColors.buttonBackground,
                     padding: '0 10px',
                     verticalAlign: 'top',
@@ -212,8 +212,9 @@ export const getStyles = (props: IPivotStyleProps): IPivotStyles => {
             {
                 textAlign: 'left',
                 width: '100%',
-                height: 36,
-                lineHeight: 36,
+                height: 50,
+                lineHeight: 50,
+                fontSize:fonts.xLarge.fontSize
             },
         ],
         linkIsSelected: [
