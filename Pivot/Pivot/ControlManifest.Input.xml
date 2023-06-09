@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="EOS" constructor="Pivot" version="0.0.1" display-name-key="Pivot" description-key="Pivot_Desc" control-type="virtual">
+  <control namespace="EOSPowerCAT" constructor="Pivot" version="0.0.1" display-name-key="Pivot" description-key="Pivot_Desc" control-type="virtual">
      
     <!-- OnChange Event Properties -->
     <property name="SelectedKey" display-name-key="SelectedKey" usage="bound" of-type="SingleLine.Text" />

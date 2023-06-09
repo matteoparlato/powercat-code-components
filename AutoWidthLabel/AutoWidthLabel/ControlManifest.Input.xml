@@ -6,7 +6,7 @@
     Model-driven Apps: -
     Portals: -
   -->
-  <control namespace="EOS" constructor="AutoWidthLabel" version="0.0.1" display-name-key="AutoWidthLabel" description-key="AutoWidthLabel_Desc" control-type="standard">
+  <control namespace="EOSPowerCAT" constructor="AutoWidthLabel" version="0.0.1" display-name-key="AutoWidthLabel" description-key="AutoWidthLabel_Desc" control-type="standard">
     <property name="Text" display-name-key="Text" description-key="Text" of-type="SingleLine.Text" usage="bound" required="true" default-value="Text" />
     
     <!-- Font Properties -->

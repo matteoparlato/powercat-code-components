@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="EOS" constructor="ContextMenu" version="0.0.1" display-name-key="ContextMenu" description-key="ContextMenu_Desc" control-type="virtual">
+  <control namespace="EOSPowerCAT" constructor="ContextMenu" version="0.0.1" display-name-key="ContextMenu" description-key="ContextMenu_Desc" control-type="virtual">
     <property name="Chevron" display-name-key="Chevron" of-type="TwoOptions" usage="input" default-value="true"/>
     <property name="IconColor" display-name-key="IconColor" of-type="SingleLine.Text" usage="input" />
     <property name="HoverIconColor" display-name-key="HoverIconColor" of-type="SingleLine.Text" usage="input" />

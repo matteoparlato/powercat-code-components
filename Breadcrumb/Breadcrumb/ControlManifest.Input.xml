@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="EOS" constructor="Breadcrumb" version="0.0.1" display-name-key="Breadcrumb" description-key="Breadcrumb_Desc" control-type="virtual">
+  <control namespace="EOSPowerCAT" constructor="Breadcrumb" version="0.0.1" display-name-key="Breadcrumb" description-key="Breadcrumb_Desc" control-type="virtual">
 
     <!-- Style Properties -->
     <property name="Theme" display-name-key="Theme" of-type="Multiple" usage="input" required="false" />

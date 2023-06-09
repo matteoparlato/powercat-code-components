@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="EOS" constructor="ThemeDesigner" version="0.0.1" display-name-key="ThemeDesigner" description-key="ThemeDesigner_Desc" control-type="virtual">
+  <control namespace="EOSPowerCAT" constructor="ThemeDesigner" version="0.0.1" display-name-key="ThemeDesigner" description-key="ThemeDesigner_Desc" control-type="virtual">
     <!-- OnChange Event Properties -->
     <property name="ThemeJSON" display-name-key="ThemeJSON" of-type="Multiple" usage="bound" required="false" />
       <!-- InputEvent : Get Color -->

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="EOS" constructor="CommandBar" version="0.0.1" display-name-key="CommandBar" description-key="CommandBar_Desc" control-type="virtual">
+  <control namespace="EOSPowerCAT" constructor="CommandBar" version="0.0.1" display-name-key="CommandBar" description-key="CommandBar_Desc" control-type="virtual">
      
     <!-- OnChange Event Properties -->
     <property name="Theme" display-name-key="Theme" of-type="Multiple" usage="input" required="false" />

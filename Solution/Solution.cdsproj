@@ -58,7 +58,7 @@
     <ProjectReference Include="..\Picker\Picker.pcfproj" />
     <ProjectReference Include="..\Pivot\Pivot.pcfproj" />
     <ProjectReference Include="..\ProgressIndicator\ProgressIndicator.pcfproj" />
-    <ProjectReference Include="..\ResizableTextarea\resizable-textarea.pcfproj" />
+    <!--ProjectReference Include="..\ResizableTextarea\resizable-textarea.pcfproj" /-->
     <ProjectReference Include="..\SearchBox\SearchBox.pcfproj" />
     <ProjectReference Include="..\Shimmer\Shimmer.pcfproj" />
     <ProjectReference Include="..\SpinButton\SpinButton.pcfproj" />

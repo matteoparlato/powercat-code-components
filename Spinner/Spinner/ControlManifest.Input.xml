@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="EOS" constructor="Spinner" version="0.0.1" display-name-key="Spinner" description-key="Spinner_desc" control-type="virtual" >
+  <control namespace="EOSPowerCAT" constructor="Spinner" version="0.0.1" display-name-key="Spinner" description-key="Spinner_desc" control-type="virtual" >
     <property name="Theme" display-name-key="Theme" of-type="Multiple" usage="input" required="false" />
     <property name="Label" display-name-key="Label" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="AccessibilityLabel" display-name-key="AccessibilityLabel" of-type="SingleLine.Text" usage="input" required="false" />
