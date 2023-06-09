@@ -200,6 +200,7 @@ export const getStyles = (props: IPivotStyleProps): IPivotStyles => {
                 visibility: 'hidden',
                 position: 'absolute',
                 right: 0,
+                fontSize:fonts.xLarge.fontSize,
                 [`.${classNames.link}[data-is-overflowing='true'] ~ &`]: {
                     visibility: 'visible',
                     position: 'relative',
@@ -225,6 +226,7 @@ export const getStyles = (props: IPivotStyleProps): IPivotStyles => {
                 selectors: {
                     ':before': {
                         backgroundColor: semanticColors.inputBackgroundChecked,
+                        height: 6,
                         selectors: {
                             [HighContrastSelector]: {
                                 backgroundColor: 'Highlight',
