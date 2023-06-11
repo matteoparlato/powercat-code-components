@@ -10,7 +10,6 @@ import {
     DetailsRow,
     ICellStyleProps,
     IDetailsRowStyles,
-    ShimmeredDetailsList,
     IShimmeredDetailsListProps,
     Overlay,
     ScrollablePane,
@@ -90,6 +89,20 @@ const onRenderDetailsHeader: IRenderFunction<IDetailsHeaderProps> = (props, defa
             <Sticky stickyPosition={StickyPositionType.Header} stickyClassName="sticky-header">
                 {defaultRender({
                     ...props,
+                    styles: {
+                        root: {
+                            height: 50,
+                            selectors: {
+                                '.ms-DetailsHeader-cell': {
+                                    height: 50,
+                                    lineHeight: 50,
+                                },
+                                '.ms-DetailsHeader-cellName': {
+                                    fontSize: FontSizes.large,
+                                },
+                            },
+                        },
+                    },
                 })}
             </Sticky>
         );
@@ -228,9 +241,13 @@ export const Grid = React.memo((props: GridProps) => {
                 const customStyles: Partial<IDetailsRowStyles> = {};
 
                 if (alternateRowColor && props.itemIndex % 2 === 0) {
-                    customStyles.root = { backgroundColor: alternateRowColor, height: 70, fontSize: FontSizes.large };
+                    customStyles.root = {
+                        backgroundColor: alternateRowColor,
+                        minHeight: 70,
+                        fontSize: FontSizes.large,
+                    };
                 } else {
-                    customStyles.root = { height: 70, fontSize: FontSizes.large };
+                    customStyles.root = { minHeight: 70, fontSize: FontSizes.large };
                 }
 
                 return <DetailsRow {...props} styles={customStyles} />;

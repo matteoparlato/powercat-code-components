@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="EOSPowerCAT" constructor="FluentDetailsList" version="0.2.16" display-name-key="FluentDetailsList" description-key="FluentDetailsList_Desc" control-type="virtual">
+  <control namespace="EOSPowerCAT" constructor="FluentDetailsList" version="0.2.20" display-name-key="FluentDetailsList" description-key="FluentDetailsList_Desc" control-type="virtual">
     <external-service-usage enabled="false"></external-service-usage>
     <data-set name="records" display-name-key="Records" >
       <property-set name="RecordKey" display-name-key="RecordKey" of-type="SingleLine.Text" usage="bound" required="false" />
