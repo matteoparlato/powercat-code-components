@@ -115,3 +115,7 @@
 .PowerCATFluentDetailsList button:disabled.image-button {
   background-color: transparent;
 }
+
+.PowerCATFluentDetailsList .ms-DetailsRow-check.ms-Check-checkHost {
+  height: 100%;
+}

@@ -27,6 +27,8 @@ import {
     SelectionMode,
     ThemeProvider,
     IDetailsRowProps,
+    FontSizes,
+    DetailsList,
 } from '@fluentui/react';
 import * as React from 'react';
 import { IGridColumn } from './Component.types';
@@ -226,7 +228,9 @@ export const Grid = React.memo((props: GridProps) => {
                 const customStyles: Partial<IDetailsRowStyles> = {};
 
                 if (alternateRowColor && props.itemIndex % 2 === 0) {
-                    customStyles.root = { backgroundColor: alternateRowColor };
+                    customStyles.root = { backgroundColor: alternateRowColor, height: 70, fontSize: FontSizes.large };
+                } else {
+                    customStyles.root = { height: 70, fontSize: FontSizes.large };
                 }
 
                 return <DetailsRow {...props} styles={customStyles} />;
@@ -276,7 +280,7 @@ export const Grid = React.memo((props: GridProps) => {
             className={ClassNames.PowerCATFluentDetailsList}
         >
             <ScrollablePane scrollbarVisibility={ScrollbarVisibility.auto} scrollContainerFocus={false}>
-                <ShimmeredDetailsList
+                <DetailsList
                     {...gridProps}
                     columns={gridColumns}
                     onRenderRow={onRenderRow}
@@ -286,7 +290,7 @@ export const Grid = React.memo((props: GridProps) => {
                     selection={selectionZoneProps?.selection}
                     selectionZoneProps={selectionZoneProps}
                     componentRef={componentRef}
-                ></ShimmeredDetailsList>
+                ></DetailsList>
             </ScrollablePane>
             {(itemsLoading || isComponentLoading) && <Overlay />}
             {columnDatasetNotDefined && !itemsLoading && <NoFields resources={resources} />}
