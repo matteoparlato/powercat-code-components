@@ -226,7 +226,7 @@ export const getStyles = (props: IPivotStyleProps): IPivotStyles => {
                 selectors: {
                     ':before': {
                         backgroundColor: semanticColors.inputBackgroundChecked,
-                        height: 6,
+                        height: 5,
                         selectors: {
                             [HighContrastSelector]: {
                                 backgroundColor: 'Highlight',
