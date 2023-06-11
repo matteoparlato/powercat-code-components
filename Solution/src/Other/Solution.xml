@@ -13,21 +13,21 @@
     <Managed>2</Managed>
     <Publisher>
       <!-- Unique Publisher Name of Cds Solution -->
-      <UniqueName>catteam</UniqueName>
+      <UniqueName>EOS_Solutions</UniqueName>
       <LocalizedNames>
         <!-- Localized Cds Publisher Name in language code-->
-        <LocalizedName description="EOS_Solutions" languagecode="1033" />
+        <LocalizedName description="EOS Solutions" languagecode="1033" />
       </LocalizedNames>
       <Descriptions>
         <!-- Description of Cds Publisher in language code -->
-        <Description description="EOS_Solutions" languagecode="1033" />
+        <Description description="EOS Solutions" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
       <!-- Customization Prefix for the Cds Publisher-->
-      <CustomizationPrefix>cat</CustomizationPrefix>
+      <CustomizationPrefix>eos</CustomizationPrefix>
       <!-- Derived Option Value Prefix for the Customization Prefix of Cds Publisher -->
-      <CustomizationOptionValuePrefix>80906</CustomizationOptionValuePrefix>
+      <CustomizationOptionValuePrefix>14744</CustomizationOptionValuePrefix>
       <Addresses>
         <!-- Address of the Publisher-->
         <Address>
