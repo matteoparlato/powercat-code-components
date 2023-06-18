@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="EOSPowerCAT" constructor="Spinner" version="0.0.1" display-name-key="Spinner" description-key="Spinner_desc" control-type="virtual" >
+  <control namespace="EOSPowerCAT" constructor="Spinner" version="0.0.2" display-name-key="Spinner" description-key="Spinner_desc" control-type="virtual" >
     <property name="Theme" display-name-key="Theme" of-type="Multiple" usage="input" required="false" />
     <property name="Label" display-name-key="Label" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="AccessibilityLabel" display-name-key="AccessibilityLabel" of-type="SingleLine.Text" usage="input" required="false" />
@@ -22,6 +22,9 @@
       <value name="Right" display-name-key="Right" description-key="Right">Right</value>
       <value name="Left" display-name-key="Left" description-key="Left">Left</value>
     </property>
+    <property name="eosSpinnerWidth" default-value="0" display-name-key="SpinnerWidth" of-type="Whole.None" usage="input" />
+    <property name="eosSpinnerHeight" default-value="0" display-name-key="SpinnerHeight" of-type="Whole.None" usage="input" />
+    <property name="eosSpinnerWeight" default-value="0" display-name-key="SpinnerWeight" of-type="Whole.None" usage="input" />
     <resources>
       <code path="index.ts" order="1"/>
       <resx path="strings/Spinner.1033.resx" version="1.0.0" />

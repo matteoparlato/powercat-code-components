@@ -19,6 +19,9 @@ export interface ISpinnerProps {
     height: number;
     width: number;
     backgroundColor?: string;
+    eosSpinnerWidth: number;
+    eosSpinnerHeight: number;
+    eosSpinnerWeight: number;
 }
 
 export const CanvasSpinner = React.memo((props: ISpinnerProps) => {
@@ -43,10 +46,27 @@ export const CanvasSpinner = React.memo((props: ISpinnerProps) => {
         });
     }
 
-    return (
-        <ThemeProvider theme={theme} className={getSpinnerContainerStyle()}>
-            <Spinner aria-label={ariaLabel} label={label} size={spinnerSize} labelPosition={labelPosition} />
-        </ThemeProvider>
-    );
+    const spinnerStyles = {
+        circle: {
+            height: props.eosSpinnerHeight,
+            width: props.eosSpinnerWidth,
+            borderWidth: props.eosSpinnerWeight
+        }
+    }
+
+    if (props.eosSpinnerWidth === 0 || props.eosSpinnerHeight === 0 || props.eosSpinnerWeight === 0) {
+        return (
+            <ThemeProvider theme={theme} className={getSpinnerContainerStyle()}>
+                <Spinner aria-label={ariaLabel} label={label} size={spinnerSize} labelPosition={labelPosition} />
+            </ThemeProvider>
+        )
+    }
+    else {
+        return (
+            <ThemeProvider theme={theme} className={getSpinnerContainerStyle()}>
+                <Spinner aria-label={ariaLabel} label={label} styles={spinnerStyles} labelPosition={labelPosition} />
+            </ThemeProvider>
+        )
+    }
 });
 CanvasSpinner.displayName = 'CanvasSpinner';

@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 
 import { IInputs } from '../generated/ManifestTypes';
-import { MockEnumProperty, MockStringProperty } from './mock-context';
+import { MockEnumProperty, MockStringProperty, MockWholeNumberProperty } from './mock-context';
 
 export function getMockParameters(): IInputs {
     return {
@@ -12,5 +12,8 @@ export function getMockParameters(): IInputs {
         LabelPosition: new MockEnumProperty(),
         SpinnerAlignment: new MockEnumProperty(),
         BackgroundColor: new MockStringProperty(),
+        eosSpinnerWidth: new MockWholeNumberProperty(),
+        eosSpinnerHeight: new MockWholeNumberProperty(),
+        eosSpinnerWeight: new MockWholeNumberProperty()
     };
 }
