@@ -240,12 +240,20 @@ export const Grid = React.memo((props: GridProps) => {
             if (props) {
                 const customStyles: Partial<IDetailsRowStyles> = {};
 
-                if (alternateRowColor && props.itemIndex % 2 === 0) {
-                    customStyles.root = {
-                        backgroundColor: alternateRowColor,
-                        minHeight: 70,
-                        fontSize: FontSizes.large,
-                    };
+                if (alternateRowColor) {
+                    if (props.itemIndex % 2 === 0) {
+                        customStyles.root = {
+                            backgroundColor: alternateRowColor.substring(0, 7) + '4D',
+                            minHeight: 70,
+                            fontSize: FontSizes.large,
+                        }
+                    } else {
+                        customStyles.root = {
+                            backgroundColor: alternateRowColor.substring(0, 7) + '1A',
+                            minHeight: 70,
+                            fontSize: FontSizes.large,
+                        }
+                    }
                 } else {
                     customStyles.root = { minHeight: 70, fontSize: FontSizes.large };
                 }
@@ -333,8 +341,8 @@ function getGridProps(props: GridProps, selectionType: SelectionMode) {
             selectionType === SelectionMode.none
                 ? CheckboxVisibility.hidden
                 : props.selectionAlwaysVisible
-                ? CheckboxVisibility.always
-                : CheckboxVisibility.onHover,
+                    ? CheckboxVisibility.always
+                    : CheckboxVisibility.onHover,
         compact: props.compact === true,
         cellStyleProps: cellStyleProps,
         selectionPreservedOnEmptyClick: true,

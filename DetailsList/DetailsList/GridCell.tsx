@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { DefaultButton, FontIcon, IColumn, IconButton, Image, IRawStyle, Link, mergeStyles } from '@fluentui/react';
+import { DefaultButton, FontIcon, FontSizes, IColumn, IconButton, Image, IRawStyle, Link, mergeStyles } from '@fluentui/react';
 import * as React from 'react';
 import { IGridColumn } from './Component.types';
 import { DatasetArray } from './DatasetArrayItem';
@@ -197,8 +197,11 @@ function getTextTagCell(
         borderColor: (tagBorderColor || '#CAD0D5') + CSS_IMPORTANT,
     })}`;
     const isBlank = !tagText || tagText === '';
+    const styles = {
+        fontSize: FontSizes.large,
+    };
     const cellContents = !isBlank ? (
-        <span className={tagColorClass} title={tagText}>
+        <span className={tagColorClass} title={tagText} style={styles}>
             {tagText}
         </span>
     ) : (
