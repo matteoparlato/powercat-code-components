@@ -46,11 +46,11 @@
     <!--ProjectReference Include="..\Breadcrumb\BreadCrumb.pcfproj" /-->
     <!--ProjectReference Include="..\Calendar\Calendar.pcfproj" /-->
     <!--ProjectReference Include="..\CommandBar\CommandBar.pcfproj" /-->
-    <!--ProjectReference Include="..\ContextMenu\ContextMenu.pcfproj" /-->
+    <ProjectReference Include="..\ContextMenu\ContextMenu.pcfproj" />
     <ProjectReference Include="..\DetailsList\DetailsList.pcfproj" />
     <!--ProjectReference Include="..\Elevation\Elevation.pcfproj" /-->
     <!--ProjectReference Include="..\Facepile\Facepile.pcfproj" /-->
-    <!--ProjectReference Include="..\Icon\Icon.pcfproj" /-->
+    <ProjectReference Include="..\Icon\Icon.pcfproj" />
     <!--ProjectReference Include="..\Nav\Nav.pcfproj" /-->
     <!--ProjectReference Include="..\KeyboardShortcuts\keyboard-shortcuts.pcfproj" /-->
     <!--ProjectReference Include="..\Persona\Persona.pcfproj" /-->
@@ -62,7 +62,7 @@
     <!--ProjectReference Include="..\SearchBox\SearchBox.pcfproj" /-->
     <!--ProjectReference Include="..\Shimmer\Shimmer.pcfproj" /-->
     <!--ProjectReference Include="..\SpinButton\SpinButton.pcfproj" /-->
-    <!--ProjectReference Include="..\Spinner\Spinner.pcfproj" /-->
+    <ProjectReference Include="..\Spinner\Spinner.pcfproj" />
     <!--ProjectReference Include="..\SubwayNav\SubwayNav.pcfproj" /-->
     <!--ProjectReference Include="..\TagList\TagList.pcfproj" /-->
     <!--ProjectReference Include="..\ThemeGenerator\themeGenerator.pcfproj" /-->
