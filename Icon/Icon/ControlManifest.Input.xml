@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="EOSPowerCAT" constructor="Icon" version="0.0.1" display-name-key="Icon" description-key="Icon_Desc" control-type="virtual" >
+  <control namespace="EOSPowerCAT" constructor="Icon" version="0.0.2" display-name-key="Icon" description-key="Icon_Desc" control-type="virtual" >
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <property name="IconName" display-name-key="IconName" of-type="SingleLine.Text" usage="input" required="true" />
     <property name="IconType" display-name-key="IconType" of-type="Enum" usage="input" required="true" default-value="0">
