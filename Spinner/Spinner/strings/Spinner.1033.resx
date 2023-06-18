@@ -144,4 +144,16 @@
     <data name="BackgroundColor" xml:space="preserve">
         <value>Background Color</value>
     </data>
+    <data name="SpinnerWidth" xml:space="preserve">
+        <value>Spinner Width</value>
+    </data>
+    <data name="SpinnerHeight" xml:space="preserve">
+        <value>Spinner Height</value>
+    </data>
+    <data name="SpinnerWeight" xml:space="preserve">
+        <value>Spinner Weight</value>
+    </data>
+    <data name="SpinnerColor" xml:space="preserve">
+        <value>Spinner Color</value>
+    </data>
 </root>
