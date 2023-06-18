@@ -38,7 +38,8 @@ export class Spinner implements ComponentFramework.ReactControl<IInputs, IOutput
             backgroundColor: context.parameters.BackgroundColor.raw ?? undefined,
             eosSpinnerWidth: context.parameters.eosSpinnerWidth.raw ?? 0,
             eosSpinnerHeight: context.parameters.eosSpinnerHeight.raw ?? 0,
-            eosSpinnerWeight: context.parameters.eosSpinnerWeight.raw ?? 0
+            eosSpinnerWeight: context.parameters.eosSpinnerWeight.raw ?? 0,
+            eosSpinnerColor: context.parameters.eosSpinnerColor.raw ?? undefined,
         };
         return React.createElement(CanvasSpinner, props);
     }

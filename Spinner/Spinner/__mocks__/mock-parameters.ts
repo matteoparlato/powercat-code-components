@@ -14,6 +14,7 @@ export function getMockParameters(): IInputs {
         BackgroundColor: new MockStringProperty(),
         eosSpinnerWidth: new MockWholeNumberProperty(),
         eosSpinnerHeight: new MockWholeNumberProperty(),
-        eosSpinnerWeight: new MockWholeNumberProperty()
+        eosSpinnerWeight: new MockWholeNumberProperty(),
+        eosSpinnerColor: new MockStringProperty(),
     };
 }

@@ -25,6 +25,7 @@
     <property name="eosSpinnerWidth" default-value="0" display-name-key="SpinnerWidth" of-type="Whole.None" usage="input" />
     <property name="eosSpinnerHeight" default-value="0" display-name-key="SpinnerHeight" of-type="Whole.None" usage="input" />
     <property name="eosSpinnerWeight" default-value="0" display-name-key="SpinnerWeight" of-type="Whole.None" usage="input" />
+    <property name="eosSpinnerColor" default-value="#FFF #CACACA80 #CACACA80" display-name-key="SpinnerColor" of-type="SingleLine.Text" usage="input" />
     <resources>
       <code path="index.ts" order="1"/>
       <resx path="strings/Spinner.1033.resx" version="1.0.0" />

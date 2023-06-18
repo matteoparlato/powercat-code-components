@@ -22,6 +22,7 @@ export interface ISpinnerProps {
     eosSpinnerWidth: number;
     eosSpinnerHeight: number;
     eosSpinnerWeight: number;
+    eosSpinnerColor?: string;
 }
 
 export const CanvasSpinner = React.memo((props: ISpinnerProps) => {
@@ -50,7 +51,8 @@ export const CanvasSpinner = React.memo((props: ISpinnerProps) => {
         circle: {
             height: props.eosSpinnerHeight,
             width: props.eosSpinnerWidth,
-            borderWidth: props.eosSpinnerWeight
+            borderWidth: props.eosSpinnerWeight,
+            borderColor: props.eosSpinnerColor,
         }
     }
 
