@@ -51,7 +51,7 @@
     <!--ProjectReference Include="..\Elevation\Elevation.pcfproj" /-->
     <!--ProjectReference Include="..\Facepile\Facepile.pcfproj" /-->
     <ProjectReference Include="..\Icon\Icon.pcfproj" />
-    <!--ProjectReference Include="..\Nav\Nav.pcfproj" /-->
+    <ProjectReference Include="..\Nav\Nav.pcfproj" />
     <!--ProjectReference Include="..\KeyboardShortcuts\keyboard-shortcuts.pcfproj" /-->
     <!--ProjectReference Include="..\Persona\Persona.pcfproj" /-->
     <!--ProjectReference Include="..\PeoplePicker\PeoplePicker.pcfproj" /-->

@@ -9,6 +9,7 @@ import {
     IPartialTheme,
     ThemeProvider,
     IIconProps,
+    FontSizes,
 } from '@fluentui/react';
 import * as React from 'react';
 import { CanvasNavProps, NavItem } from './Component.types';
@@ -125,11 +126,13 @@ export const CanvasNav = React.memo((props: CanvasNavProps) => {
                 boxSizing: 'border-box',
                 //border: '1px solid #eee',
                 overflowY: 'auto',
+                fontSize: FontSizes.large,
             }, // these link styles override the default truncation behavior
             // so that the item text wraps
             link: {
                 whiteSpace: 'normal',
                 lineHeight: 'inherit',
+                fontSize: FontSizes.large,
             },
             groupContent: {
                 marginBottom: 0,
